@@ -1,0 +1,103 @@
+.background-page {
+	background-image: url("../public/images/gplaypattern.png");
+}
+.full-page {
+}
+.side-menu {
+	border: 1px solid gray;
+	background-color: white;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 5px;
+	border-radius: 5px;
+}
+.side-menu-phone {
+	margin-top: 20px;
+}
+.main-page {
+	border: 1px solid gray;
+	background-color: white;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 10px;
+	border-radius: 5px;
+}
+.header {
+	padding-left: 300px;
+}
+.footer {
+	background-color: #2c3e50 !important;
+	width: 100%;
+	height: 50px;
+	color: white;
+	padding: 10px;
+}
+.menu-btn {
+	width: 100%;
+	margin-bottom: 5px;
+	text-align: left !important;
+}
+@media screen and (max-width: 575px) {
+	.side-menu {
+		visibility: hidden;
+		clear: both;
+		display: none;
+	}
+}
+@media screen and (min-width: 576px) {
+	.side-menu-phone {
+		visibility: hidden;
+		clear: both;
+		display: none;
+	}
+}
+.view-div {
+	text-emphasis-color: black;
+	border-radius: 5px;
+	padding: 5px;
+}
+.black-text {
+	color: black;
+}
+.gray-text {
+	color: gray;
+}
+.contact-btn {
+	margin-bottom: 5px;
+	width: 100%;
+}
+.btn-icon {
+	text-align: left;
+}
+.center-text {
+	text-align: center;
+}
+.right-text {
+	text-align: right;
+}
+.card {
+	margin-bottom: 10px;
+}
+.badge {
+	margin: 0px 5px 5px 0px;
+	padding: 10px !important;
+	font-weight: normal !important;
+	font-size: medium !important;
+}
+.new-header {
+	width: 100%;
+}
+.justify-text {
+	text-align: justify;
+}
+.right-text {
+	text-align: right;
+}
+.bio-data {
+	border: 1px dotted gray;
+	border-radius: 5px;
+}
+
+.badge-white-font {
+	color: white;
+}
